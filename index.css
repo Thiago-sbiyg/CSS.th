@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #e7ebe8;
+    font-family: Arial, sans-serif;
+    color: #26332a;
+}
+
+/* Estrutura geral */
+.pagina {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 0px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Lado esquerdo */
+.apresentacao {
+    display: inline-block;
+    width: 45%;
+    background-color: #053a21;
+    border: radius 10px;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #142;
+    min-height: 750px;
+    font-size: 16px;
+    color: white;
+
+}
+
+.apresentacao h1 {
+    color: #a9e59c;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.apresentacao h2 {
+    font-size: 36px;
+    color: #d0dcd3;
+}
+
+.apresentacao p {
+    line-height: 1.6;
+    color: #d0dcd3;
+}
+
+.beneficios {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #688674;
+    border-radius: 8px;
+}
+
+.beneficios h3 {
+    color: #a9e59c;
+}
+
+/* Lado direito */
+.area-cadastro {
+    display: inline-block;
+    width: 55%;
+    padding: 35px 50px;
+    box-sizing: border-box;
+   
+}
+
+.area-cadastro h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.area-cadastro p {
+    color: #777777;
+}
+
+/* Formulário */
+form {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+   
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163c2a;
+}
+
+.login {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color:#7f8c8d 
+}
+
+.login a {
+    color: #235b40;
+    font-weight: bold;
+    text-decoration: underline;
+}
